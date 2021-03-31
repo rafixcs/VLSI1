@@ -64,6 +64,7 @@ begin
         when x"41" => ascii_out <= x"2c";
         when x"49" => ascii_out <= x"2e";
         when x"4a" => ascii_out <= x"2f";
+        when others => ascii_out <= x"ff";
     end case;
   end process;
 end decoder_scancode_ascii_golden;
