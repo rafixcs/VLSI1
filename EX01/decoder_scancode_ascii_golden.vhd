@@ -14,7 +14,6 @@ end decoder_scancode_ascii_golden;
 architecture decoder_scancode_ascii_golden of decoder_scancode_ascii_golden is
 
 begin
-    process(scancode_in):
     begin
         case (scancode_in) is
             when x"16" => ascii_out <= x"31";
@@ -65,5 +64,4 @@ begin
             when x"49" => ascii_out <= x"2e";
             when x"4a" => ascii_out <= x"2f";
         end case;
-    end process;
 end decoder_scancode_ascii_golden
