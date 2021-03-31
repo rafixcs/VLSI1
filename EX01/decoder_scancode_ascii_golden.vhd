@@ -66,4 +66,4 @@ begin
         when x"4a" => ascii_out <= x"2f";
     end case;
   end process;
-end decoder_scancode_ascii_golden
+end decoder_scancode_ascii_golden;
