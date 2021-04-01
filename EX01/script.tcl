@@ -1,7 +1,9 @@
 vlib work
 
 vcom decoder_scancode_ascii_golden.vhd
-decoder_testbench.vhd
+vcom decoder_testbench.vhd
+
+vsim -novopt -wlf /sim/decoder -wlfdeleteonquit work.decoder_testbench
 
 add wave sim:/*
 
