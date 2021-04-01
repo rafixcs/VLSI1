@@ -1,8 +1,5 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-library UNISIM;
-use UNISIM.VCOMPONENTS.ALL;
-use UNISIM.VPKG.ALL;
 
 entity decoder_scancode_ascii_golden is
   port (

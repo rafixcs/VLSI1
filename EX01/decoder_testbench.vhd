@@ -1,8 +1,7 @@
 library IEEE;
     use IEEE.STD_LOGIC_1164.ALL;
-library UNISIM;
-    use UNISIM.VCOMPONENTS.ALL;
-    use UNISIM.VPKG.ALL;
+    use IEEE.STD_LOGIC_UNSIGNED.ALL;
+    use IEEE.STD_LOGIC_ARITH.ALL;
 
 entity decoder_testbench is
 
