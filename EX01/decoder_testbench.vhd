@@ -41,9 +41,9 @@ begin
         wait for 25 ns;
             if not (ascii_out_golden = ascii_out_duv) then
                 report "as saidas sao diferentes";
-                comparator := '1';
+                comparator <= '1';
             else
-                comparator := '0';
+                comparator <= '0';
             end if;
         
 
