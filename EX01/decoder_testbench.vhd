@@ -16,7 +16,7 @@ architecture decoder_testbench of decoder_testbench is
     signal comparator         : std_logic;
 
 begin
-    duv: entity work.decoder_scancode_ascii_map
+    duv: entity work.decoder_scancode_ascii
     port map 
     (
         ascii_out   => ascii_out_duv,
