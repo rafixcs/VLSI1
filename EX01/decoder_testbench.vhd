@@ -40,7 +40,7 @@ begin
 
         wait for 25 ns;
             if not (ascii_out_golden = ascii_out_duv) then
-                report "as saidas sao diferentes"
+                report "as saidas sao diferentes";
                 comparator := '1';
             else
                 comparator := '0';
