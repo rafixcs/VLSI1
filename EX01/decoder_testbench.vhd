@@ -37,7 +37,7 @@ begin
 
         wait for 15 ns;
             
-            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & ascii_out_golde & " duv: " & ascii_out_duv;
+            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & integer'image(ascii_out_golde) & " duv: " & integer'image(ascii_out_duv);
 
         wait for 20 ns;
     end process;
