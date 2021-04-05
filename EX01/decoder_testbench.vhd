@@ -29,7 +29,7 @@ begin
 
 
     process
-    variable a, b : integer;
+    variable a, b, c : integer;
     begin
         if scancode_in_tb < x"ff" then
             scancode_in_tb <= scancode_in_tb + 1;
