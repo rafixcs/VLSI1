@@ -2,6 +2,7 @@ library IEEE;
     use IEEE.STD_LOGIC_1164.ALL;
     use IEEE.STD_LOGIC_UNSIGNED.ALL;
     use IEEE.STD_LOGIC_ARITH.ALL;
+    USE ieee.NUMERIC_STD.ALL;
 
 entity decoder_testbench is
 
