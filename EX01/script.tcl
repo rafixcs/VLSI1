@@ -8,4 +8,4 @@ vsim -novopt -wlf /sim/decoder -wlfdeleteonquit work.decoder_testbench
 
 add wave sim:/*
 
-run 500 ns
+run 6000 ns
