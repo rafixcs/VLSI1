@@ -32,13 +32,13 @@ begin
 
     process
     begin
-        if scancode_in_tb < x"7e" then
+        if scancode_in_tb < x"ff" then
             scancode_in_tb <= scancode_in_tb + 1;
         else
             scancode_in_tb <= x"00";
         end if;
 
-        wait for 25 ns;
+        wait for 15 ns;
             if not (ascii_out_golden = ascii_out_duv) then
                 report "as saidas sao diferentes";
                 comparator <= '1';
@@ -47,7 +47,7 @@ begin
             end if;
         
 
-        wait for 25 ns;
+        wait for 15 ns;
     end process;
 
 end decoder_testbench;
