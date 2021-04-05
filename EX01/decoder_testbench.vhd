@@ -11,9 +11,6 @@ architecture decoder_testbench of decoder_testbench is
     signal scancode_in_tb        : std_logic_vector(7 downto 0) := x"00";
     signal ascii_out_duv      : std_logic_vector(7 downto 0)    := x"00";
     signal ascii_out_golden   : std_logic_vector(7 downto 0)    := x"00";
-
-    signal comparator         : std_logic;
-
 begin
     duv: entity work.decoder_scancode_ascii
     port map 
@@ -39,15 +36,10 @@ begin
         end if;
 
         wait for 15 ns;
-            if not (ascii_out_golden = ascii_out_duv) then
-                report "as saidas sao diferentes";
-                comparator <= '1';
-            else
-                comparator <= '0';
-            end if;
-        
+            
+            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & ascii_out_golde & " duv: " & ascii_out_duv;
 
-        wait for 15 ns;
+        wait for 20 ns;
     end process;
 
 end decoder_testbench;
