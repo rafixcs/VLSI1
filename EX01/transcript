@@ -1,0 +1,141 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 2.6.18-419.el5.centos.plus
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+git pull
+# Updating 8f04e10..8a27ce5
+# Fast-forward
+#  EX01/decoder_testbench.vhd | 3 ++-
+#  1 file changed, 2 insertions(+), 1 deletion(-)
+# From https://github.com/rafixcs/VLSI1
+#    8f04e10..8a27ce5  master     -> origin/master
+vcom decoder_testbench.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 13:25:12 on Apr 05,2021
+# vcom -reportprogress 300 decoder_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder_testbench
+# -- Compiling architecture decoder_testbench of decoder_testbench
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package VPKG
+# -- Loading entity decoder_scancode_ascii
+# -- Loading entity decoder_scancode_ascii_golden
+# End time: 13:25:12 on Apr 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 13:25:16 on Apr 05,2021
+# vcom -reportprogress 300 decoder_scancode_ascii_map.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package VPKG
+# -- Compiling entity decoder_scancode_ascii
+# -- Compiling architecture Structure of decoder_scancode_ascii
+# End time: 13:25:17 on Apr 05,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 13:25:17 on Apr 05,2021
+# vcom -reportprogress 300 decoder_scancode_ascii_golden.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_scancode_ascii_golden
+# -- Compiling architecture decoder_scancode_ascii_golden of decoder_scancode_ascii_golden
+# End time: 13:25:17 on Apr 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 13:25:17 on Apr 05,2021
+# vcom -reportprogress 300 decoder_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity decoder_testbench
+# -- Compiling architecture decoder_testbench of decoder_testbench
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package VPKG
+# -- Loading entity decoder_scancode_ascii
+# -- Loading entity decoder_scancode_ascii_golden
+# End time: 13:25:17 on Apr 05,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 13:25:17 on Apr 05,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/EX01/work.decoder_testbench(decoder_testbench)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading unisim.vcomponents
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading unisim.vpkg(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+# Loading work.decoder_testbench(decoder_testbench)
+# Refreshing /home/vlsi1_g03/VLSI1/EX01/work.decoder_scancode_ascii(structure)
+# Loading work.decoder_scancode_ascii(structure)
+# Loading unisim.lut2(lut2_v)
+# Loading unisim.lut4(lut4_v)
+# Loading unisim.lut3(lut3_v)
+# Loading unisim.ibuf(ibuf_v)
+# Loading unisim.obuf(obuf_v)
+# Loading unisim.muxf5(muxf5_v)
+# Refreshing /home/vlsi1_g03/VLSI1/EX01/work.decoder_scancode_ascii_golden(decoder_scancode_ascii_golden)
+# Loading work.decoder_scancode_ascii_golden(decoder_scancode_ascii_golden)
+# ** Error: Entrada: 16 | Saida esperada:255 - Resultado obtido: 102
+#    Time: 540 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 21 | Saida esperada:81 - Resultado obtido: 73
+#    Time: 715 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 22 | Saida esperada:49 - Resultado obtido: 84
+#    Time: 750 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 32 | Saida esperada:255 - Resultado obtido: 68
+#    Time: 1100 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 33 | Saida esperada:67 - Resultado obtido: 86
+#    Time: 1135 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 38 | Saida esperada:51 - Resultado obtido: 65
+#    Time: 1310 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 42 | Saida esperada:86 - Resultado obtido: 49
+#    Time: 1450 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 43 | Saida esperada:70 - Resultado obtido: 76
+#    Time: 1485 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 44 | Saida esperada:84 - Resultado obtido: 50
+#    Time: 1520 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 48 | Saida esperada:255 - Resultado obtido: 34
+#    Time: 1660 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 61 | Saida esperada:55 - Resultado obtido: 67
+#    Time: 2115 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 64 | Saida esperada:255 - Resultado obtido: 17
+#    Time: 2220 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 75 | Saida esperada:76 - Resultado obtido: 83
+#    Time: 2605 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 80 | Saida esperada:255 - Resultado obtido: 34
+#    Time: 2780 ns  Iteration: 0  Instance: /decoder_testbench
+# ** Error: Entrada: 96 | Saida esperada:255 - Resultado obtido: 0
+#    Time: 3340 ns  Iteration: 0  Instance: /decoder_testbench
+quit
+# End time: 13:25:29 on Apr 05,2021, Elapsed time: 0:00:12
+# Errors: 15, Warnings: 2

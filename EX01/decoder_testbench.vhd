@@ -31,6 +31,7 @@ begin
     process
     variable a, b, c : integer;
     begin
+        -- geracao de estimulos para o teste
         if scancode_in_tb < x"ff" then
             scancode_in_tb <= scancode_in_tb + 1;
         else
@@ -42,6 +43,7 @@ begin
             b := CONV_INTEGER(ascii_out_duv);
             c := CONV_INTEGER(scancode_in_tb);
             
+            -- geracao do relatorio quando as saidas dos dois circuitos sao diferentes
             assert (ascii_out_golden = ascii_out_duv) 
                 report "Entrada: " & integer'image(c) & " | Saida esperada:" & integer'image(a) & " - Resultado obtido: " & integer'image(b);
 
