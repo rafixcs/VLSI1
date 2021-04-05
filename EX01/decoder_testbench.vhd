@@ -42,7 +42,8 @@ begin
             b := CONV_INTEGER(ascii_out_duv);
             c := CONV_INTEGER(scancode_in_tb);
             
-            assert (ascii_out_golden = ascii_out_duv) report "Entrada: " & integer'image(c) & " | Saida esperada:" & integer'image(a) & " - Resultado obtido: " & integer'image(b);
+            assert (ascii_out_golden = ascii_out_duv) 
+                report "Entrada: " & integer'image(c) & " | Saida esperada:" & integer'image(a) & " - Resultado obtido: " & integer'image(b);
 
         wait for 20 ns;
     end process;
