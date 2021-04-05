@@ -13,7 +13,7 @@ architecture decoder_testbench of decoder_testbench is
     signal ascii_out_duv      : std_logic_vector(7 downto 0)    := x"00";
     signal ascii_out_golden   : std_logic_vector(7 downto 0)    := x"00";
 begin
-    duv: entity work.decoder_scancode_ascii
+    cuv: entity work.decoder_scancode_ascii
     port map 
     (
         ascii_out   => ascii_out_duv,
@@ -42,7 +42,7 @@ begin
             b := CONV_INTEGER(ascii_out_duv);
             c := CONV_INTEGER(scancode_in_tb);
             
-            assert (ascii_out_golden = ascii_out_duv) report "Entrada: " & integer'image(c) & " | Saida diferentes golden:" & integer'image(a) & " duv: " & integer'image(b);
+            assert (ascii_out_golden = ascii_out_duv) report "Entrada: " & integer'image(c) & "\nSaida esperada:" & integer'image(a) & "\tResultado obtido: " & integer'image(b);
 
         wait for 20 ns;
     end process;
