@@ -28,6 +28,7 @@ begin
 
 
     process
+    variable a, b : integer;
     begin
         if scancode_in_tb < x"ff" then
             scancode_in_tb <= scancode_in_tb + 1;
@@ -36,8 +37,10 @@ begin
         end if;
 
         wait for 15 ns;
+            a := ascii_out_golden;
+            b := ascii_out_duv;
             
-            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & 'image(ascii_out_golden) & " duv: " & 'image(ascii_out_duv);
+            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & integer'image(a) & " duv: " & integer'image(b);
 
         wait for 20 ns;
     end process;
