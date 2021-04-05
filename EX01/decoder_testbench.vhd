@@ -38,13 +38,11 @@ begin
         end if;
 
         wait for 15 ns;
-            --a := to_integer(unsigned(ascii_out_golden));
-            --b := to_integer(unsigned(ascii_out_duv));
             a := CONV_INTEGER(ascii_out_golden);
             b := CONV_INTEGER(ascii_out_duv);
             c := CONV_INTEGER(scancode_in_tb);
             
-            assert (ascii_out_golden = ascii_out_duv) report "Entrada: " & integer'image(c) & "Saida diferentes golden:" & integer'image(a) & " duv: " & integer'image(b);
+            assert (ascii_out_golden = ascii_out_duv) report "Entrada: " & integer'image(c) & " | Saida diferentes golden:" & integer'image(a) & " duv: " & integer'image(b);
 
         wait for 20 ns;
     end process;
