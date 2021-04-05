@@ -37,8 +37,8 @@ begin
         end if;
 
         wait for 15 ns;
-            a := ascii_out_golden;
-            b := ascii_out_duv;
+            a := to_integer(unsigned(ascii_out_golden));
+            b := to_integer(unsigned(ascii_out_duv));
             
             assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & integer'image(a) & " duv: " & integer'image(b);
 
