@@ -8,7 +8,7 @@ entity decoder_testbench is
 end decoder_testbench;
 
 architecture decoder_testbench of decoder_testbench is
-    signal scancode_in_tb        : std_logic_vector(7 downto 0) := x"00";
+    signal scancode_in_tb     : std_logic_vector(7 downto 0)    := x"00";
     signal ascii_out_duv      : std_logic_vector(7 downto 0)    := x"00";
     signal ascii_out_golden   : std_logic_vector(7 downto 0)    := x"00";
 begin
@@ -37,7 +37,7 @@ begin
 
         wait for 15 ns;
             
-            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & integer'image(ascii_out_golden) & " duv: " & integer'image(ascii_out_duv);
+            assert (ascii_out_golden = ascii_out_duv) report "Saida e diferente g:" & std_logic_vector'image(ascii_out_golden) & " duv: " & std_logic_vector'image(ascii_out_duv);
 
         wait for 20 ns;
     end process;
