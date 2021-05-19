@@ -1,0 +1,1377 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 2.6.18-419.el5.centos.plus
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:22:39 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Compiling entity reg_bank
+# -- Compiling architecture Structure of reg_bank
+# End time: 21:22:39 on Apr 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:22:40 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_bank_tb
+# -- Compiling architecture reg_bank_tb of reg_bank_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Loading entity reg_bank
+# End time: 21:22:40 on Apr 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:22:40 on Apr 20,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank_tb(reg_bank_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+# Loading work.reg_bank_tb(reg_bank_tb)
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank(structure)
+# Loading work.reg_bank(structure)
+# Loading simprim.x_inv(x_inv_v)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_sff(x_sff_v)
+# Loading simprim.x_lut4(x_lut4_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_bufgmux(x_bufgmux_v)
+# Loading simprim.x_mux2(x_mux2_v)
+# Loading simprim.x_ff(x_ff_v)
+# Loading simprim.x_zero(x_zero_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 0 | rd_data:0
+#    Time: 1500 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 1 | rd_data:48
+#    Time: 1580 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 2 | rd_data:82
+#    Time: 1660 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 3 | rd_data:55
+#    Time: 1740 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 4 | rd_data:48
+#    Time: 1820 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: W/R => Addr: 5 | rd_data:57
+#    Time: 1900 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:82
+#    Time: 1980 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:93
+#    Time: 2060 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:82
+#    Time: 2140 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:82
+#    Time: 2220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:82
+#    Time: 2300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 2380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 2460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:69
+#    Time: 2540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 2620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 2700 ns  Iteration: 1  Instance: /reg_bank_tb
+ls
+# reg_bank_tb-backup.vhd
+# reg_bank_tb.vhd
+# reg_bank_tb.vhd~
+# reg_bank.vhd
+# script.tcl
+# script.tcl~
+# transcript
+# work
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:27:21 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Compiling entity reg_bank
+# -- Compiling architecture Structure of reg_bank
+# End time: 21:27:22 on Apr 20,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:27:22 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_bank_tb
+# -- Compiling architecture reg_bank_tb of reg_bank_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Loading entity reg_bank
+# End time: 21:27:22 on Apr 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:27:23 on Apr 20,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank_tb(reg_bank_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+# Loading work.reg_bank_tb(reg_bank_tb)
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank(structure)
+# Loading work.reg_bank(structure)
+# Loading simprim.x_inv(x_inv_v)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_sff(x_sff_v)
+# Loading simprim.x_lut4(x_lut4_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_bufgmux(x_bufgmux_v)
+# Loading simprim.x_mux2(x_mux2_v)
+# Loading simprim.x_ff(x_ff_v)
+# Loading simprim.x_zero(x_zero_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:30:18 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Compiling entity reg_bank
+# -- Compiling architecture Structure of reg_bank
+# End time: 21:30:18 on Apr 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:30:18 on Apr 20,2021
+# vcom -reportprogress 300 reg_bank_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity reg_bank_tb
+# -- Compiling architecture reg_bank_tb of reg_bank_tb
+# -- Loading package VITAL_Timing
+# -- Loading package VCOMPONENTS
+# -- Loading package VITAL_Primitives
+# -- Loading package VPACKAGE
+# -- Loading entity reg_bank
+# End time: 21:30:19 on Apr 20,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:30:19 on Apr 20,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank_tb(reg_bank_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading vital2000.vital_timing(body)
+# Loading simprim.vcomponents
+# Loading vital2000.vital_primitives(body)
+# Loading simprim.vpackage(body)
+# ** Warning: (vsim-3479) Time unit 'ps' is less than the simulator resolution (1ns).
+#    Time: 0 ns  Iteration: 0  Root: /
+# Loading work.reg_bank_tb(reg_bank_tb)
+# Refreshing /home/vlsi1_g03/Ex02/work.reg_bank(structure)
+# Loading work.reg_bank(structure)
+# Loading simprim.x_inv(x_inv_v)
+# Loading simprim.x_buf(x_buf_v)
+# Loading simprim.x_sff(x_sff_v)
+# Loading simprim.x_lut4(x_lut4_v)
+# Loading simprim.x_obuf(x_obuf_v)
+# Loading simprim.x_bufgmux(x_bufgmux_v)
+# Loading simprim.x_mux2(x_mux2_v)
+# Loading simprim.x_ff(x_ff_v)
+# Loading simprim.x_zero(x_zero_v)
+# Loading simprim.x_one(x_one_v)
+# Loading simprim.x_roc(x_roc_v)
+# Loading simprim.x_toc(x_toc_v)
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 0 | rd_data:50
+#    Time: 220 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 1 | rd_data:48
+#    Time: 300 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 2 | rd_data:49
+#    Time: 380 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 3 | rd_data:55
+#    Time: 460 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 4 | rd_data:48
+#    Time: 540 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 5 | rd_data:57
+#    Time: 620 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 6 | rd_data:99
+#    Time: 700 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 7 | rd_data:7
+#    Time: 780 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 8 | rd_data:8
+#    Time: 860 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 9 | rd_data:9
+#    Time: 940 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 10 | rd_data:10
+#    Time: 1020 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 11 | rd_data:255
+#    Time: 1100 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 12 | rd_data:255
+#    Time: 1180 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 13 | rd_data:255
+#    Time: 1260 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 14 | rd_data:0
+#    Time: 1340 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb
+# ** Error: READ => Addr: 15 | rd_data:255
+#    Time: 1420 ns  Iteration: 1  Instance: /reg_bank_tb

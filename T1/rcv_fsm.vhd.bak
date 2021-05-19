@@ -1,0 +1,82 @@
+library IEEE;
+	use IEEE.STD_LOGIC_1164.ALL;
+	use IEEE.STD_LOGIC_UNSIGNED.ALL;
+	use IEEE.STD_LOGIC_ARITH.ALL;
+    use IEEE.NUMERIC_STD.ALL;
+
+entity rcv_fsm is
+	port(
+		clk_in 	    : in std_logic;	-- Master clock (100MHz)
+		rst_in 	    : in std_logic;	-- Sincro reset 
+		data_sr_in  : in std_logic; -- Serial data in
+		data_pl_out : out std_logic_vector(7 downto 0); -- Paralel data out
+		data_pl_en_out : out std_logic;	-- Valid data out
+		sync_out	: out std_logic -- Sync state
+	);
+end rcv_fsm;
+
+architecture rcv_fsm of rcv_fsm is
+	signal v_rcv_buffer : std_logic_vector(7 downto 0) := x"00";
+	signal buf_0, buf_1, buf_2, buf_3, buf_4, buf_5, buf_6, buf_7 : std_logic := '0';
+	signal b_init	: std_logic := '0';
+	signal v_indx_buf : std_logic_vector(2 downto 0) := "000";
+	
+	signal sync, data_is_out : std_logic := '0';
+begin
+	data_pl_out <= v_rcv_buffer;
+	sync_out <= sync;
+	data_pl_en_out <= data_is_out;
+
+	INIT_RST: process(clk_in)
+	begin
+		if rising_edge(clk_in) then
+			if rst_in = '1' then
+				-- reset the buffer vector and the out variables
+				v_rcv_buffer <= x"00";
+				sync <= '0';
+				data_is_out <= '0';
+				b_init <= '1';
+				v_indx_buf <= "000";
+			end if;
+		end if;
+	end process INIT_RST;
+
+	SERIAL: process(clk_in)
+	begin
+		if rising_edge(clk_in) then
+			if rst_in = '0' and b_init = '1' then
+				if 	v_indx_buf = 0 then
+					buf_0 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 1 then
+					buf_1 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 2 then	
+					buf_2 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;			
+				elsif v_indx_buf = 3 then
+					buf_3 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 4 then
+					buf_4 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 5 then
+					buf_5 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 6 then
+					buf_6 <= data_sr_in;
+					v_indx_buf <= v_indx_buf + 1;
+				elsif v_indx_buf = 7 then
+					buf_7 <= data_sr_in;
+					v_indx_buf <= "000";
+				end if;
+		
+				v_rcv_buffer <= buf_7 & buf_6 & buf_5 & buf_4 & buf_3 & buf_2 & buf_1 & buf_0;
+
+				if v_rcv_buffer = x"a5" then
+					sync <= '1';
+				end if;
+			end if;
+		end if;
+	end process SERIAL;
+end rcv_fsm;

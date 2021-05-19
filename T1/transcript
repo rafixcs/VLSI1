@@ -1,0 +1,3398 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 2.6.18-419.el5.centos.plus
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:30:45 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 18:30:45 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:30:45 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 18:30:45 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:30:45 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/buf_0
+add wave -position end  sim:/fsm_tb/cuv/buf_1
+add wave -position end  sim:/fsm_tb/cuv/buf_2
+add wave -position end  sim:/fsm_tb/cuv/buf_3
+add wave -position end  sim:/fsm_tb/cuv/buf_4
+add wave -position end  sim:/fsm_tb/cuv/buf_5
+add wave -position end  sim:/fsm_tb/cuv/buf_6
+add wave -position end  sim:/fsm_tb/cuv/buf_7
+add wave -position end  sim:/fsm_tb/cuv/v_indx_buf
+add wave -position end  sim:/fsm_tb/cuv/v_rcv_buffer
+
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 345 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 365 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 385 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 395 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 425 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 445 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script
+# Cannot open macro file: script
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:41:10 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 18:41:10 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:41:10 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 18:41:10 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:41:11 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/v_rcv_buffer
+add wave -position end  sim:/fsm_tb/cuv/buf_0
+add wave -position end  sim:/fsm_tb/cuv/buf_1
+add wave -position end  sim:/fsm_tb/cuv/buf_2
+add wave -position end  sim:/fsm_tb/cuv/buf_3
+add wave -position end  sim:/fsm_tb/cuv/buf_4
+add wave -position end  sim:/fsm_tb/cuv/buf_5
+add wave -position end  sim:/fsm_tb/cuv/buf_6
+add wave -position end  sim:/fsm_tb/cuv/buf_7
+add wave -position end  sim:/fsm_tb/cuv/v_indx_buf
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 345 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 365 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 385 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 395 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 425 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 445 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 455 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 465 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 475 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 485 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 495 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/b_init
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 325 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 345 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 355 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 365 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 385 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 395 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 425 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 445 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 455 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 465 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 475 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 485 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 495 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:49:18 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 18:49:19 on May 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:49:19 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 18:49:19 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:49:19 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 75 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+dos script.tcl
+# invalid command name "dos"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:53:07 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 18:53:07 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:53:07 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 18:53:07 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 18:53:07 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 85 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 175 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 185 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 245 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 255 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 265 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 275 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 295 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:00:53 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(94): near "end": expecting ';'
+# ** Error: rcv_fsm.vhd(97): Illegal sequential statement.
+# ** Error: rcv_fsm.vhd(107): near "rcv_fsm": expecting PROCESS
+# End time: 19:00:53 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 3
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:01:13 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:01:14 on May 10,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:01:14 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:01:14 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:01:14 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/v_rcv_buffer
+add wave -position end  sim:/fsm_tb/cuv/buf_0
+add wave -position end  sim:/fsm_tb/cuv/buf_1
+add wave -position end  sim:/fsm_tb/cuv/buf_2
+add wave -position end  sim:/fsm_tb/cuv/buf_3
+add wave -position end  sim:/fsm_tb/cuv/buf_4
+add wave -position end  sim:/fsm_tb/cuv/buf_5
+add wave -position end  sim:/fsm_tb/cuv/buf_6
+add wave -position end  sim:/fsm_tb/cuv/buf_7
+add wave -position end  sim:/fsm_tb/cuv/b_init
+add wave -position end  sim:/fsm_tb/cuv/v_indx_buf
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 500 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 95 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 105 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 115 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 125 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 135 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 145 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 155 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 165 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:10 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:03:10 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:03:10 on May 10,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:03:10 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:03:11 on May 10,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/v_rcv_buffer
+add wave -position end  sim:/fsm_tb/cuv/buf_0
+add wave -position end  sim:/fsm_tb/cuv/buf_1
+add wave -position end  sim:/fsm_tb/cuv/buf_2
+add wave -position end  sim:/fsm_tb/cuv/buf_3
+add wave -position end  sim:/fsm_tb/cuv/buf_4
+add wave -position end  sim:/fsm_tb/cuv/buf_5
+add wave -position end  sim:/fsm_tb/cuv/buf_6
+add wave -position end  sim:/fsm_tb/cuv/buf_7
+add wave -position end  sim:/fsm_tb/cuv/b_init
+add wave -position end  sim:/fsm_tb/cuv/v_indx_buf
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 500 ns
+add wave -position end  sim:/fsm_tb/init_latency
+restrt
+# invalid command name "restrt"
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 500 ns
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:11:42 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(31): near ",": expecting <= or :=
+# ** Error: rcv_fsm.vhd(35): VHDL Compiler exiting
+# End time: 19:11:42 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:12:08 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(31): near ",": expecting <= or :=
+# ** Error: rcv_fsm.vhd(35): VHDL Compiler exiting
+# End time: 19:12:08 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:45:31 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# ** Error: rcv_fsm.vhd(18): near "type": syntax error
+# End time: 22:45:31 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:45:59 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# ** Error: rcv_fsm.vhd(18): near "type": syntax error
+# End time: 22:45:59 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:46:05 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# ** Error: rcv_fsm.vhd(18): near "type": syntax error
+# End time: 22:46:05 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:46:10 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# ** Error: rcv_fsm.vhd(18): near "type": syntax error
+# End time: 22:46:10 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:46:46 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(25): near "0": expecting ';'
+# ** Error: rcv_fsm.vhd(29): near "0": expecting ';'
+# ** Error: rcv_fsm.vhd(36): (vcom-1136) Unknown identifier "v_paylaod_buff".
+# ** Error: rcv_fsm.vhd(46): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(46): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(49): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(49): (vcom-1136) Unknown identifier "b_count_aligment".
+# ** Error: rcv_fsm.vhd(73): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(73): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(75): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(75): (vcom-1136) Unknown identifier "b_count_aligment".
+# ** Error: rcv_fsm.vhd(81): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(81): Type error resolving infix expression "<" as type std.STANDARD.BOOLEAN.
+# ** Error: rcv_fsm.vhd(82): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(82): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
+# ** Error: rcv_fsm.vhd(83): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(83): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(83): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(85): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(85): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
+# ** Error: rcv_fsm.vhd(86): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(90): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(90): (vcom-1136) Unknown identifier "b_count_aligment".
+# ** Error: rcv_fsm.vhd(90): (vcom-1136) Unknown identifier "b_count_aligment".
+# ** Error: rcv_fsm.vhd(94): near "end": expecting ';'
+# ** Error: rcv_fsm.vhd(99): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(99): Type error resolving infix expression "-" as type std.STANDARD.NATURAL.
+# ** Error: rcv_fsm.vhd(100): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(100): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(100): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(101): near "else": expecting END or WHEN
+# ** Error: rcv_fsm.vhd(103): Illegal target for signal assignment.
+# ** Error: rcv_fsm.vhd(103): (vcom-1136) Unknown identifier "i_indx_buffer".
+# ** Error: rcv_fsm.vhd(107): near "when": expecting END
+# End time: 22:46:46 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 34, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:47:51 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(36): (vcom-1136) Unknown identifier "v_paylaod_buff".
+# ** Error: rcv_fsm.vhd(86): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(94): near "end": expecting ';'
+# ** Error: rcv_fsm.vhd(101): near "else": expecting END or WHEN
+# ** Error: rcv_fsm.vhd(107): near "when": expecting END
+# End time: 22:47:51 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:48:22 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(86): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(94): near "end": expecting ';'
+# ** Error: rcv_fsm.vhd(101): near "else": expecting END or WHEN
+# ** Error: rcv_fsm.vhd(107): near "when": expecting END
+# End time: 22:48:23 on May 10,2021, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:49:08 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(113): Symbol "sync_out" has already been declared in this region.
+# ** Error: rcv_fsm.vhd(117): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:49:08 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:49:11 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(113): Symbol "sync_out" has already been declared in this region.
+# ** Error: rcv_fsm.vhd(117): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:49:11 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:50:02 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(113): Symbol "sync_out" has already been declared in this region.
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:50:02 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:50:58 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:50:58 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:51:00 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:51:00 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:54:39 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(45)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(70)
+# ** Error: rcv_fsm.vhd(25): Nonresolved signal 'i_indx_buffer' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(46)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(49)
+#     rcv_fsm.vhd(62):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(75)
+# ** Error: rcv_fsm.vhd(122): VHDL Compiler exiting
+# End time: 22:54:39 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:55:42 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'b_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(40):Process RST_PROC
+#        Driven at:
+#           rcv_fsm.vhd(47)
+#     rcv_fsm.vhd(60):Process RCV_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(73)
+# ** Error: rcv_fsm.vhd(120): VHDL Compiler exiting
+# End time: 22:55:42 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:55:57 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 22:55:57 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:57:06 on May 10,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 22:57:06 on May 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:13:57 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# ** Warning: [3] fsm_tb.vhd(19): (vcom-1246) Range 7 to 0 is null.
+# ** Warning: [3] fsm_tb.vhd(21): (vcom-1246) Range 5 to 0 is null.
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(55): near "=>": expecting GENERATE or IS
+# ** Error: fsm_tb.vhd(67): near "when": expecting END
+# ** Error: fsm_tb.vhd(71): near "when": expecting END
+# End time: 21:13:57 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:17:35 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# ** Warning: [3] fsm_tb.vhd(19): (vcom-1246) Range 7 to 0 is null.
+# ** Warning: [3] fsm_tb.vhd(21): (vcom-1246) Range 5 to 0 is null.
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(55): near "=>": expecting GENERATE or IS
+# ** Error: fsm_tb.vhd(67): near "when": expecting END
+# ** Error: fsm_tb.vhd(71): near "when": expecting END
+# End time: 21:17:35 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 2
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:18:23 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# ** Warning: [3] fsm_tb.vhd(19): (vcom-1246) Range 7 to 0 is null.
+# ** Warning: [3] fsm_tb.vhd(21): (vcom-1246) Range 5 to 0 is null.
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(19): (vcom-1144) Value 7 (of type std.STANDARD.INTEGER) is out of range 7 to 0 (null range).
+# ** Error: fsm_tb.vhd(21): (vcom-1144) Value 0 (of type std.STANDARD.INTEGER) is out of range 5 to 0 (null range).
+# ** Warning: [14] fsm_tb.vhd(58): (vcom-1144) Value 0 (of type std.STANDARD.INTEGER) is out of range 7 to 0 (null range).
+# ** Warning: [14] fsm_tb.vhd(61): (vcom-1146) No value can belong to null range 5 to 0.
+# ** Warning: [14] fsm_tb.vhd(76): (vcom-1144) Value 0 (of type std.STANDARD.INTEGER) is out of range 7 to 0 (null range).
+# ** Error: fsm_tb.vhd(87): VHDL Compiler exiting
+# End time: 21:18:23 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 5
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:19:19 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:19:19 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:19:27 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:19:27 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:19:27 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:19:27 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:19:27 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/data_sr_in
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/idx_bit
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:23:13 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:23:14 on May 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:23:14 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:23:14 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:23:14 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/idx_bit
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:25:56 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:25:56 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:25:56 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:25:56 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:25:56 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/idx_bit
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:26:37 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:26:37 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:26:37 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:26:37 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:26:38 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/idx_bit
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:31:23 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:31:23 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:31:23 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:31:24 on May 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:31:24 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/idx_bit
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:37:29 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:37:29 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:37:29 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:37:29 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:37:29 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+add wave -position end  sim:/fsm_tb/cuv/rx_sr_data_R
+add wave -position end  sim:/fsm_tb/cuv/rx_sr_data
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 225 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:40:55 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:40:55 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:40:55 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:40:56 on May 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:40:56 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+restat
+# invalid command name "restat"
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+add wave -position end  sim:/fsm_tb/cuv/rx_sr_data_R
+add wave -position end  sim:/fsm_tb/cuv/rx_sr_data
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 235 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 335 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 435 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:43:08 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(53): Operator "=" is ambiguous.
+#    Feasible operators are:
+#       (implicit) STANDARD."="[BIT, BIT return BOOLEAN] at vhdl_src/std/standard.vhd(10)
+#       (implicit) STANDARD."="[std.STANDARD.CHARACTER, std.STANDARD.CHARACTER return BOOLEAN] at vhdl_src/std/standard.vhd(53)
+#       (implicit) std_logic_1164."="[STD_ULOGIC, STD_ULOGIC return BOOLEAN] at vhdl_src/ieee/stdlogic.vhd(67)
+# ** Error: rcv_fsm.vhd(53): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: rcv_fsm.vhd(123): VHDL Compiler exiting
+# End time: 21:43:08 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 3
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:43:21 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:43:21 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:43:21 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:43:21 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:43:21 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+add wave -position end  sim:/fsm_tb/cuv/b_count_aligment
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 215 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 315 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 415 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:52:11 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:52:11 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:52:11 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:52:11 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:52:11 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 205 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 305 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 405 ns  Iteration: 1  Instance: /fsm_tb/cuv
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:54:12 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(67): near "_": syntax error
+# ** Error: rcv_fsm.vhd(120): VHDL Compiler exiting
+# End time: 21:54:12 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 3
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:54:25 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(67): near "_": syntax error
+# ** Error: rcv_fsm.vhd(120): VHDL Compiler exiting
+# End time: 21:54:25 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 3
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:54:54 on May 11,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:54:54 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:54:54 on May 11,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:54:54 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:54:55 on May 11,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 450 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 195 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 285 ns  Iteration: 1  Instance: /fsm_tb/cuv
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 375 ns  Iteration: 1  Instance: /fsm_tb/cuv
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 17:41:57 on May 17,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(21): Nonresolved signal 'sm_state' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(39):Process p_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(51)
+#     rcv_fsm.vhd(82):Process p_RST
+#        Driven at:
+#           rcv_fsm.vhd(89)
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'i_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(39):Process p_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(65)
+#     rcv_fsm.vhd(82):Process p_RST
+#        Driven at:
+#           rcv_fsm.vhd(87)
+# ** Error: rcv_fsm.vhd(93): VHDL Compiler exiting
+# End time: 17:41:57 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 17:43:47 on May 17,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 17:43:47 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 17:43:55 on May 17,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(72): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(77): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(79): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(91): VHDL Compiler exiting
+# End time: 17:43:55 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 17:46:24 on May 17,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 17:46:24 on May 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:58:04 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:58:04 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:58:04 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(77): near "=>": expecting GENERATE or IS
+# ** Error: fsm_tb.vhd(92): near "when": expecting END
+# End time: 19:58:04 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 4
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:58:40 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:58:40 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:58:40 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:58:40 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:58:40 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:00:30 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:00:30 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:00:30 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:00:31 on May 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:00:31 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:01:05 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:01:05 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:01:05 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:01:05 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:01:05 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:02:02 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:02:02 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:02:02 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:02:02 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:02:02 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:03:48 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:03:48 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:03:48 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:03:48 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:03:48 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:05:55 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:05:55 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:05:55 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:05:55 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:05:55 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:07:14 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:07:14 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:07:14 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:07:14 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:07:14 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000 ns
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:17:01 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:17:01 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:17:01 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(100): near "when": expecting END
+# ** Error: fsm_tb.vhd(106): VHDL Compiler exiting
+# End time: 20:17:01 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 4
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:17:22 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:17:22 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:17:22 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(72): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(95): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(97): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(100): near "when": expecting END
+# ** Error: fsm_tb.vhd(106): VHDL Compiler exiting
+# End time: 20:17:22 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 4
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:12 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:18:12 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:12 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(72): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(95): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(97): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(100): near "when": expecting END
+# ** Error: fsm_tb.vhd(106): VHDL Compiler exiting
+# End time: 20:18:12 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 4
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:24 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:18:24 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:24 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(95): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(97): Target of signal assignment is not a signal.
+# ** Error: fsm_tb.vhd(100): near "when": expecting END
+# ** Error: fsm_tb.vhd(106): VHDL Compiler exiting
+# End time: 20:18:24 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./script.tcl line 4
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:53 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:18:53 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:18:53 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:18:53 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:18:53 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+start 1000 ns
+# wrong # args: should be "startIndProgressBar"
+run 1000 ns
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:21:14 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:21:14 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:21:14 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 20:21:14 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 20:21:15 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000 ns
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:26:14 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:26:15 on May 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:26:15 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:26:15 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:26:15 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:28:16 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 21:28:16 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 21:28:16 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 21:28:16 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 21:28:16 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:04:34 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 22:04:34 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:04:34 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:04:34 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 22:04:34 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000 ns
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:15:10 on May 18,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 22:15:10 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:15:10 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:15:11 on May 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 22:15:11 on May 18,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_indx_buffer
+run 1000 ns
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:17:22 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:17:22 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+run 1000 ns
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:36:13 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# ** Error: fsm_tb.vhd(70): Signal "index" cannot be target of variable assignment statement.
+# ** Error: fsm_tb.vhd(79): Signal "index" cannot be target of variable assignment statement.
+# ** Error: fsm_tb.vhd(92): Signal "index" cannot be target of variable assignment statement.
+# ** Error: fsm_tb.vhd(106): VHDL Compiler exiting
+# End time: 22:36:13 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:36:51 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:36:51 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+run 1000 ns
+add wave -position end  sim:/fsm_tb/index
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000 ns
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:40:42 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:40:42 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+run 1000 ns
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:47:06 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:47:06 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+run 1000 ns
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 22:49:53 on May 18,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 22:49:53 on May 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+run 1000 ns
+add wave -position end  sim:/fsm_tb/cuv/i_count_aligment
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 18:20:16 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 18:20:16 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 51000 ns
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:18:40 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:18:40 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:18:44 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:18:44 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 1000 ns
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:21:00 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:21:00 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:21:00 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:21:00 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:21:00 on May 19,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_count_aligment
+add wave -position end  sim:/fsm_tb/cuv/i_counter_payload
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000 ns
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 1000
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+vcom fsm_tb.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:27:08 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:27:08 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 1000
+run 1000
+# ** Fatal: (vsim-3421) Value 4 is out of range 0 to 3.
+#    Time: 1045 ns  Iteration: 1  Process: /fsm_tb/cuv/p_SERIAL File: rcv_fsm.vhd
+# Fatal error in Process p_SERIAL at rcv_fsm.vhd line 75
+# 
+# HDL call sequence:
+# Stopped at rcv_fsm.vhd 75 Process p_SERIAL
+# 
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading work.fsm_tb(fsm_tb)
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:28:17 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:28:17 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 2000 ns
+# ** Fatal: (vsim-3421) Value 4 is out of range 0 to 3.
+#    Time: 1045 ns  Iteration: 1  Process: /fsm_tb/cuv/p_SERIAL File: rcv_fsm.vhd
+# Fatal error in Process p_SERIAL at rcv_fsm.vhd line 75
+# 
+# HDL call sequence:
+# Stopped at rcv_fsm.vhd 75 Process p_SERIAL
+# 
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:30:03 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:30:03 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:30:03 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:30:03 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:30:03 on May 19,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/i_count_aligment
+add wave -position end  sim:/fsm_tb/cuv/i_counter_payload
+run 1000 ns
+# ** Fatal: (vsim-3421) Value 6 is out of range 0 to 5.
+#    Time: 1345 ns  Iteration: 1  Process: /fsm_tb/cuv/p_SERIAL File: rcv_fsm.vhd
+# Fatal error in Process p_SERIAL at rcv_fsm.vhd line 84
+# 
+# HDL call sequence:
+# Stopped at rcv_fsm.vhd 84 Process p_SERIAL
+# 
+do script.tcl
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:31:38 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:31:38 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:31:38 on May 19,2021
+# vcom -reportprogress 300 fsm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity fsm_tb
+# -- Compiling architecture fsm_tb of fsm_tb
+# -- Loading entity rcv_fsm
+# End time: 19:31:38 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 19:31:38 on May 19,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading std.standard
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.fsm_tb(fsm_tb)
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.fsm_tb(fsm_tb)
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+run 1000
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+add wave -position end  sim:/fsm_tb/cuv/sm_state
+add wave -position end  sim:/fsm_tb/cuv/v_buffer
+add wave -position end  sim:/fsm_tb/cuv/v_payload_buff
+add wave -position end  sim:/fsm_tb/cuv/b_payload_get
+add wave -position end  sim:/fsm_tb/cuv/i_counter_payload
+start 1000
+# wrong # args: should be "startIndProgressBar"
+run 2000 ns
+add wave -position end  sim:/fsm_tb/cuv/i_count_aligment
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 3000 ns
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:36:15 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(85): near "=": expecting <= or :=
+# ** Error: rcv_fsm.vhd(102): VHDL Compiler exiting
+# End time: 19:36:15 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:36:39 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:36:39 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+run 2000 ns
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:39:12 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:39:12 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+run 2000 ns
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:44:58 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# ** Error: rcv_fsm.vhd(29): Nonresolved signal 'i_count_aligment' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(42):Process p_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(48)
+#     rcv_fsm.vhd(101):Process p_ALIGMENT
+#        Driven at:
+#           rcv_fsm.vhd(105)
+# ** Error: rcv_fsm.vhd(34): Nonresolved signal 'i_counter_payload' has multiple sources.
+#   Drivers:
+#     rcv_fsm.vhd(42):Process p_SERIAL
+#        Driven at:
+#           rcv_fsm.vhd(52)
+#     rcv_fsm.vhd(101):Process p_ALIGMENT
+#        Driven at:
+#           rcv_fsm.vhd(104)
+# ** Error: rcv_fsm.vhd(109): VHDL Compiler exiting
+# End time: 19:44:58 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 19:46:52 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 19:46:52 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+run 2000 ns
+run 1000 ns
+run 1000 nsrestart
+# Invalid time value: 1000 nsrestart
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+vcom rcv_fsm.vhd
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 20:06:52 on May 19,2021
+# vcom -reportprogress 300 rcv_fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rcv_fsm
+# -- Compiling architecture rcv_fsm of rcv_fsm
+# End time: 20:06:52 on May 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run 2000 ns
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vlsi1_g03/VLSI1/T1/work.rcv_fsm(rcv_fsm)
+# Loading work.rcv_fsm(rcv_fsm)
+run 2000 ns
